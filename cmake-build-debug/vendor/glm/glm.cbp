@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="glm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\vendor\;CMake Files\vendor\glfw-3.3.2\;CMake Files\vendor\glfw-3.3.2\src\;CMake Files\vendor\glm\;CMake Files\vendor\glm\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glm"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glm/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glm/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glm/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glm/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Fractals"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\vendor\;CMake Files\vendor\glfw-3.3.2\;CMake Files\vendor\glfw-3.3.2\src\;CMake Files\vendor\glm\;CMake Files\vendor\glm\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fractals">
+				<Option output="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Fractals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/../kki_util/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/stb"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glad/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/FastNoise"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glm/glm/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fractals"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fractals/fast">
+				<Option output="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Fractals" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/../kki_util/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/stb"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glad/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/FastNoise"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glm/glm/.."/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fractals/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/../kki_util/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/stb"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glad/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/FastNoise"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/../kki_util/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/stb"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glad/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/FastNoise"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/include"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src"/>
+					<Add directory="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/cmake-build-debug/vendor/glfw-3.3.2/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/Context.cpp">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/Context.h">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/Image.cpp">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/Image.h">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/InputMonitor.cpp">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/InputMonitor.h">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/Shader.cpp">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/Shader.h">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/Texture.cpp">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/Texture.h">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/src/main.cpp">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glad/glad.c">
+			<Option target="Fractals"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/glx_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/glx_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/linux_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/linux_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/posix_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/posix_time.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/x11_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/x11_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/x11_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/x11_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/xkb_unicode.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/xkb_unicode.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glfw-3.3.2/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\vendor\glfw-3.3.2\src\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\"/>
+		</Unit>
+		<Unit filename="/home/kookie/Documents/Documents/Projects/c++/Fractals/vendor/glm/glm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\vendor\glm\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
